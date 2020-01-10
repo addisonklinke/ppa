@@ -2,6 +2,10 @@
 
 Debian repository for my packages
 
+## Packages
+
+* **[bash-utils](https://github.com/addisonklinke/bash-utilities):** Custom bash commands for added shell functionality
+
 ## Installation
 
 Add the PPA's key and source list
@@ -17,3 +21,7 @@ Select your desired packages
 ```bash
 sudo apt install package1 package2 package3
 ```
+
+## Licensing
+
+Please review the license policy in the linked repository for each package
