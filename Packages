@@ -1,0 +1,13 @@
+Package: bash-utils
+Version: 0.1.0
+Architecture: all
+Maintainer: Addison Klinke <agk38@case.edu>
+Filename: ./bash-utils_0.1.0_20200116215305.deb
+Size: 4316
+MD5sum: cbbfd801397a9d5a575cf82a3983db48
+SHA1: 09193d5acef6f580f067ec59029b3200dd74ef0b
+SHA256: b567a99d2c88a2b02aa0913f6fc8eca2a471918214900d52af7abca36762a5b3
+Section: utils
+Priority: optional
+Description: Custom bash commands for added shell functionality
+
