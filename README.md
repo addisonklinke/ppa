@@ -25,3 +25,7 @@ sudo apt install package1 package2 package3
 ## Licensing
 
 Please review the license policy in the linked repository for each package
+
+## Acknowledgements
+
+Based on the [tutorial](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html) by Assaf Morami
