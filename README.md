@@ -22,6 +22,19 @@ Select your desired packages
 sudo apt install package1 package2 package3
 ```
 
+## Adding Packages
+
+Place the deb file inside the repository's root directory, and then run 
+
+```bash
+EMAIL=abc@me.com
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
+apt-ftparchive release . > Release
+gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+```
+
 ## Licensing
 
 Please review the license policy in the linked repository for each package
